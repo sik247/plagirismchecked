@@ -5,15 +5,12 @@ Basic Functionality: Plagirm detection is conducted by changing the information 
 Supplementary Documents.
  https://www.digitalocean.com/community/tutorials/vectors-in-python
 
-
-
-
-Step 1 
+Now lets see the code. 
 
 To get started with the code on this repo, you need to either *clone* or *download* this repo into your machine just as shown below;
 
 ```bash
-git clone https://github.com/Kalebu/Plagiarism-checker-Python
+git clone https://github.com/sik247/plagirismchecked.git
 ```
 
 ## Dependencies 
@@ -24,10 +21,11 @@ Before you begin playing with the source code you might need to install deps jus
 pip3 install -r requirements.txt
 ```
 
-## Running the App
+## Running the Program
 
 To run this code you need to have your textual document in your project directory with extension **.txt** and then when you run the script, it will automatically loads all the document with that extension and then compute the similarity between them just as shown below;
 
+Example) 
 ```bash
 $-> cd Plagiarism-checker-Python
 $ Plagiarism-checker-Python-> python3 app.py
